@@ -1,0 +1,21 @@
+# EyeComfort Shader 1.0
+profile.NEUTRO=Neutro
+profile.SUAVE=Suave
+profile.DESCANSO=Descanso visual
+profile.NOCHE=Noche
+profile.comment=Neutro: colores originales. Suave: calidez ligera. Descanso visual: calidez equilibrada y blancos suaves. Noche: m\u00e1s c\u00e1lido y tenue.
+option.FILTER_STRENGTH=Intensidad del filtro
+option.FILTER_STRENGTH.comment=0 desactiva el filtro de color; 1 aplica todos los ajustes. Permite comparar con la imagen antes del filtro.
+option.TEMPERATURE=Temperatura de color
+option.TEMPERATURE.comment=Un valor menor produce una imagen m\u00e1s c\u00e1lida. 6500 es neutro. Los kelvin son orientativos; no calibran el monitor.
+suffix.TEMPERATURE=\ K
+option.CONTRAST=Contraste
+option.CONTRAST.comment=1 es neutro. Un valor menor suaviza el contraste; uno mayor lo aumenta conservando los extremos de negro y blanco.
+option.BLACK_LEVEL=Negros / Pedestal
+option.BLACK_LEVEL.comment=Eleva el nivel de negro antes del tinte. 0 conserva el negro; 0.025 lo eleva ligeramente. No recupera detalle inexistente.
+option.WHITE_LEVEL=Blancos / Nivel m\u00e1ximo
+option.WHITE_LEVEL.comment=Fija el l\u00edmite superior antes del tinte. 1 es neutro; un valor menor reduce el rango tonal por encima del pedestal.
+option.HIGHLIGHTS=Compresi\u00f3n de luces altas
+option.HIGHLIGHTS.comment=0 es neutro. Un valor mayor reduce gradualmente los tonos brillantes, con m\u00e1s efecto sobre las luces altas.
+option.SATURATION=Saturaci\u00f3n
+option.SATURATION.comment=1 conserva la saturaci\u00f3n; 0 elimina el color original antes del tinte c\u00e1lido. Prueba 0.85 para colores suaves.

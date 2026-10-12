@@ -1,0 +1,82 @@
+{
+  "compilePairsPrepared": 675,
+  "versionMacroConfigurations": 25,
+  "actualMinecraftRuns": 0,
+  "branches": [
+    {
+      "branch": "1.20.1",
+      "commit": "f8d7bea2ab82d21737e7aa8e4b2fb3a429078106",
+      "geometryPrograms": 27,
+      "splitFog": false
+    },
+    {
+      "branch": "1.20.3",
+      "commit": "a640a8a3504dadfeb62a4dc8f3d98b0601e2aff0",
+      "geometryPrograms": 27,
+      "splitFog": false
+    },
+    {
+      "branch": "1.20.6",
+      "commit": "a0b731780f52728a079906d9f891fae53bef7d29",
+      "geometryPrograms": 27,
+      "splitFog": false
+    },
+    {
+      "branch": "1.21.1",
+      "commit": "eb7afb99f747cc8ed5ee4072119539035d33cefd",
+      "geometryPrograms": 27,
+      "splitFog": false
+    },
+    {
+      "branch": "1.21.5",
+      "commit": "c5a6b32f74229e894b2e03677afbaa53b89d256b",
+      "geometryPrograms": 27,
+      "splitFog": false
+    },
+    {
+      "branch": "1.21.6",
+      "commit": "ba9af8c0c36f263026305c4c9cb9a671e389b0d6",
+      "geometryPrograms": 27,
+      "splitFog": true
+    },
+    {
+      "branch": "1.21.11",
+      "commit": "0a1fcaae55099356bf53410b4f5302753edb0ffc",
+      "geometryPrograms": 27,
+      "splitFog": true
+    },
+    {
+      "branch": "26.1",
+      "commit": "bff1e69cb6c5519d8745784aa9c8b92984de67e7",
+      "geometryPrograms": 27,
+      "splitFog": true
+    },
+    {
+      "branch": "26.2",
+      "commit": "4ce5bb6ddd4b964b2b63442ebfca7e101ff128d0",
+      "geometryPrograms": 27,
+      "splitFog": true
+    },
+    {
+      "branch": "26.3",
+      "commit": "671a5c87747d33983d7ed659461a64f46dfcb1f0",
+      "geometryPrograms": 27,
+      "splitFog": true
+    }
+  ],
+  "colorFilter": "byte-identical to the validated development baseline",
+  "profileValues": "unchanged",
+  "translationLocales": 11,
+  "compilePairsPassed": 675,
+  "gpuPixelFixturesPassed": 21,
+  "release": "1.0",
+  "date": "2026-10-12",
+  "lineProgram": "intentionally omitted; uses pack gbuffers_basic",
+  "userReportedRegression": "Development build failed in Minecraft 1.21.11: lines C7616 ftransform",
+  "regressionFixVerification": "Line -> Basic in 10 audited source branches; basic vertex matches the validated baseline; no automated in-game run",
+  "gpuPixelFixturesScope": "new sky fragment fixtures, including inverse camera rotation",
+  "historicalFogPixelFixturesPassed": 21,
+  "skyFix": "angular sky/void fade into fogColor; stars and sunset preserved",
+  "releaseChange": "Version labels and documentation only; shader implementation and active settings preserved",
+  "validationOrigin": "Existing development validation; no new GPU runs for the version rename"
+}

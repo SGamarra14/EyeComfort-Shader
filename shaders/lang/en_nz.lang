@@ -1,0 +1,21 @@
+# EyeComfort Shader 1.0
+profile.NEUTRO=Neutral
+profile.SUAVE=Soft
+profile.DESCANSO=Eye Comfort
+profile.NOCHE=Night
+profile.comment=Neutral: original colors. Soft: subtle warmth. Eye Comfort: balanced warmth and softer whites. Night: warmer and dimmer.
+option.FILTER_STRENGTH=Filter Strength
+option.FILTER_STRENGTH.comment=0 bypasses the color filter; 1 applies all adjustments. Compare with the image before filtering.
+option.TEMPERATURE=Color Temperature
+option.TEMPERATURE.comment=Lower values give a warmer image. 6500 is neutral. Kelvin values are approximate, not monitor calibration.
+suffix.TEMPERATURE=\ K
+option.CONTRAST=Contrast
+option.CONTRAST.comment=1 is neutral. Lower values soften contrast; higher values increase it while preserving black and white endpoints.
+option.BLACK_LEVEL=Blacks / Pedestal
+option.BLACK_LEVEL.comment=Raises the black level before tinting. 0 preserves black; 0.025 adds a subtle lift. Does not recover missing detail.
+option.WHITE_LEVEL=Whites / Maximum Level
+option.WHITE_LEVEL.comment=Sets the upper limit before tinting. 1 is neutral; lower values reduce the tonal range above the black pedestal.
+option.HIGHLIGHTS=Highlight Compression
+option.HIGHLIGHTS.comment=0 is neutral. Higher values smoothly reduce bright tones, with a stronger effect on highlights.
+option.SATURATION=Saturation
+option.SATURATION.comment=1 preserves saturation; 0 removes original color before the warm tint. Try 0.85 for softer colors.
